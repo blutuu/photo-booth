@@ -1,0 +1,18 @@
+.webcam-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.webcam {
+  width: 900px;
+  height: 700px;
+  background-image: url("../images/babybg.png");
+  background-size: contain;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
